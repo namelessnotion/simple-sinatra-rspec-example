@@ -4,6 +4,6 @@ Use `ruby server.rb` to run, `rake spec` or `autospec` to test.
 
 Built with: 
 
-* Sinatra 1.1.0
-* Rack::Test 0.5.6
-* RSpec 2.2.0
+* Sinatra 1.3.2
+* Rack::Test 0.6.1 
+* RSpec 2.9.0 
