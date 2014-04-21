@@ -3,7 +3,7 @@ require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
 describe 'Server' do
   it "should get home page" do
     get '/'
-    last_response.should be_ok
-    last_response.body.should include('Hullo')
+    expect(last_response).to be_ok
+    expect(last_response.body).to include('Hullo')
   end
 end
